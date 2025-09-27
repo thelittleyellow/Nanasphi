@@ -1,0 +1,17 @@
+model:
+  name: higgsnet
+  input_dim: null         # otomatis diisi di train.py
+  hidden_units: [128, 64]
+  output_units: 1         # 1 = binary classification, >1 untuk multi-class
+  activation: relu
+  output_activation: sigmoid
+
+training:
+  learning_rate: 0.001
+  batch_size: 32
+  epochs: 20
+  early_stopping_patience: 3
+
+data:
+  path: data              # folder tempat CSV disimpan
+  valid_size: 0.2

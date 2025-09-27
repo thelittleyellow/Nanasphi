@@ -1,0 +1,79 @@
+# ================================
+# Python & Virtual Environment
+# ================================
+.venv/
+venv/
+ENV/
+env/
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+bin/
+var/
+sdist/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+
+# ================================
+# TensorFlow / PyTorch Checkpoints
+# ================================
+# Model checkpoints & weights
+*.h5
+*.hdf5
+*.ckpt
+*.ckpt.*
+*.tflite
+*.pb
+*.pth
+*.pt
+*.pkl
+*.joblib
+
+# TensorBoard logs
+logs/
+events.out.tfevents.*
+
+# ================================
+# Data files
+# ================================
+data/
+datasets/
+*.npz
+*.npy
+*.csv
+*.tsv
+*.parquet
+*.zip
+*.tar
+*.tar.gz
+
+# ================================
+# IDE / Editor configs
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ================================
+# Jupyter Notebook
+# ================================
+.ipynb_checkpoints/
+*.ipynb~
+
+# ================================
+# OS generated files
+# ================================
+.DS_Store
+Thumbs.db
