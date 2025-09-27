@@ -48,7 +48,7 @@ TF-PROJECT/
 Clone repositori:
 
 ```bash
-git clone [https://github.com/thelittleyellow/Nanasphi.git]
+git clone https://github.com/thelittleyellow/Nanasphi.git
 cd TF-PROJECT
 ```
 
